@@ -1,0 +1,224 @@
+:root {
+  --white: #FFFFFF;
+  --white2: #F0F3FF;
+  --black: #101213;
+  --blue: #3A10E5;
+  --yellow: #FACB3B;
+  --krem: #FDD5A1;
+  --krem2: #FFF0E5;
+  --white3: #FFF0E5;
+  --darkblue: #090E23;
+  --secondary: #808080;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: 0;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: var(--white);
+  color: #252525;
+  min-height: 2000px;
+}
+
+/* ==================== Navbar ==================== */
+.navbar_ {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 15%;
+    background-color: var(--white);
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+  
+  .navbar_ img {
+    width: 7rem;
+  }
+
+  .navbar_ .navbar-nav_ {
+    margin-left: auto;
+  }
+  
+  .navbar_ .navbar-nav_ a {
+    color: #252525;
+    display: inline-block;
+    font-size: 0.9rem;
+    margin: 0 0.8rem;
+  }
+  /* ==================== Navbar ==================== */
+
+  /* Hero Section */
+  .hero-section_ {
+    min-height: 100vh;
+    background-color: var(--white2);
+    position: relative;
+  }
+  
+  .hero_ {
+    padding: 3rem 15%;
+    display: flex;
+  }
+  
+  .hero_ .content {
+    width: 100%;
+    text-align: right;
+  }
+
+  .hero_ .content_ h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.9em;
+    margin-right: 20%;
+    color: var(--black);
+    margin-top: 3rem;
+    font-weight: 570;
+    line-height: 1.2;
+  }
+
+  .hero_ .content_ p {
+    color: var(--secondary);
+    font-weight: 570;
+    line-height: 1.2;
+    margin: 2rem 20% 2rem 0;
+  }
+
+  .hero_ .content_ .button_{
+    background-color: var(--blue);
+    border-radius: 5px;
+    font-size: 0.7em;
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+  }
+
+  .kuning_ {
+    background-color: var(--yellow);
+  }
+  
+  .kuning_ .isi_ {
+    padding: 3rem 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .kuning_ .isi_ .card_ p {
+    font-size: 0.9em;
+  }
+
+  /* Pembelajaran populer */
+  .pembelajaran-populer_ {
+    min-height: 100vh;
+    background-color: var(--white);
+    position: relative;
+    padding: 3rem 15%;
+  }
+
+  .pembelajaran-populer_ .judul_ {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--white);
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+
+  .pembelajaran-populer_ .judul_ .navbar-nav_ {
+    margin-left: auto;
+  }
+  
+  .pembelajaran-populer_ .judul_ .navbar-nav_ a {
+    color: var(--secondary);
+    display: inline-block;
+    font-size: 0.8rem;
+    margin: 0 0.7rem;
+  }
+
+  .pembelajaran-populer_ .pembelajaran_ {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .pembelajaran-populer_ .pembelajaran_ .course .isi_ .Alen{
+    color: var(--blue);
+    font-size: 0.6em;
+    font-weight: bold;
+  }
+
+  .pembelajaran-populer_ .pembelajaran_ .course .isi_ h5{
+    font-size: 0.8em;
+    font-weight: bold;
+  }
+
+  .pembelajaran-populer_ .pembelajaran_ .course .isi_ p{
+    font-size: 0.6em;
+  }
+
+  /* Membership */
+  .membership_{
+    background-color: var(--krem2);
+    position: relative;
+  }
+  .membership_ .isi_{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .membership_ .isi_ h1{
+    font-weight: 600;
+    font-size: 2em;
+  }
+
+  .membership_ .isi_ a{
+    background-color: var(--blue);
+    color: var(--white);
+    font-size: 0.6em;
+    border-radius: 5px;
+  }
+
+  /* Kategori Populer */
+  .populer_ {
+    background-color: var(--white);
+    position: relative;
+    padding: 3rem 15%;
+  }
+
+  .populer_ .judul_ h3 {
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 1.8rem;
+  }
+
+
+
+
+
+
+
+  /* ===================== Footer ================================== */
+.footer_ {
+  background-color: var(--darkblue);
+  position: relative;
+  padding: 3rem 15%;
+}
+
+.footer_ .flex_ {
+  justify-content: space-between;
+}
+
+.footer_ .flex_ .satu_ img {
+  width: 7rem;
+} 
+
+.footer_ .flex_ p,h2{
+  font-size: 0.6em;
+}
